@@ -6,10 +6,10 @@ package module
 import (
 	"strings"
 
+	"github.com/gamunu/opentofu-schema/internal/detect"
 	"github.com/hashicorp/go-version"
 	"github.com/hashicorp/hcl/v2"
-	tfaddr "github.com/hashicorp/terraform-registry-address"
-	"github.com/hashicorp/terraform-schema/internal/detect"
+	tfaddr "github.com/opentofu/registry-address"
 )
 
 var moduleSourceLocalPrefixes = []string{

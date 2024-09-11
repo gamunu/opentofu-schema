@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/gamunu/opentofu-schema/backend"
+	"github.com/gamunu/opentofu-schema/internal/addr"
 	"github.com/hashicorp/go-version"
-	"github.com/hashicorp/terraform-schema/backend"
-	"github.com/hashicorp/terraform-schema/internal/addr"
 )
 
 func TestBackend_Equals(t *testing.T) {

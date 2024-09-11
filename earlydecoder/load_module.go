@@ -7,13 +7,13 @@ import (
 	"fmt"
 	"sort"
 
+	"github.com/gamunu/opentofu-schema/backend"
+	"github.com/gamunu/opentofu-schema/module"
 	"github.com/hashicorp/go-version"
 	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/ext/typeexpr"
 	"github.com/hashicorp/hcl/v2/gohcl"
 	"github.com/hashicorp/hcl/v2/hclsyntax"
-	"github.com/hashicorp/terraform-schema/backend"
-	"github.com/hashicorp/terraform-schema/module"
 	"github.com/zclconf/go-cty/cty"
 	"github.com/zclconf/go-cty/cty/convert"
 )

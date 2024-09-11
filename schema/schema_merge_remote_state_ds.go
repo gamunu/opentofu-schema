@@ -6,12 +6,12 @@ package schema
 import (
 	"strings"
 
+	"github.com/gamunu/opentofu-schema/internal/addr"
+	"github.com/gamunu/opentofu-schema/internal/schema/backends"
+	"github.com/gamunu/opentofu-schema/module"
 	"github.com/hashicorp/hcl-lang/lang"
 	"github.com/hashicorp/hcl-lang/schema"
-	tfaddr "github.com/hashicorp/terraform-registry-address"
-	"github.com/hashicorp/terraform-schema/internal/addr"
-	"github.com/hashicorp/terraform-schema/internal/schema/backends"
-	"github.com/hashicorp/terraform-schema/module"
+	tfaddr "github.com/opentofu/registry-address"
 	"github.com/zclconf/go-cty/cty"
 )
 

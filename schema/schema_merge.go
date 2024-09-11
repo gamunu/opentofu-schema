@@ -7,13 +7,13 @@ import (
 	"path/filepath"
 	"strings"
 
+	"github.com/gamunu/opentofu-schema/internal/schema/backends"
+	tfmod "github.com/gamunu/opentofu-schema/module"
+	"github.com/gamunu/opentofu-schema/registry"
 	"github.com/hashicorp/go-version"
 	"github.com/hashicorp/hcl-lang/lang"
 	"github.com/hashicorp/hcl-lang/schema"
-	tfaddr "github.com/hashicorp/terraform-registry-address"
-	"github.com/hashicorp/terraform-schema/internal/schema/backends"
-	tfmod "github.com/hashicorp/terraform-schema/module"
-	"github.com/hashicorp/terraform-schema/registry"
+	tfaddr "github.com/opentofu/registry-address"
 	"github.com/zclconf/go-cty/cty"
 )
 

@@ -6,9 +6,9 @@ package schema
 import (
 	"fmt"
 
+	tfmod "github.com/gamunu/opentofu-schema/module"
 	"github.com/hashicorp/go-version"
 	"github.com/hashicorp/hcl-lang/schema"
-	tfmod "github.com/hashicorp/terraform-schema/module"
 )
 
 type FunctionsMerger struct {

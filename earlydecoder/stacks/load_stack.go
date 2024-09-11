@@ -6,11 +6,11 @@ package earlydecoder
 import (
 	"fmt"
 
+	"github.com/gamunu/opentofu-schema/stack"
 	"github.com/hashicorp/go-version"
 	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/ext/typeexpr"
 	"github.com/hashicorp/hcl/v2/gohcl"
-	"github.com/hashicorp/terraform-schema/stack"
 	"github.com/zclconf/go-cty/cty"
 	"github.com/zclconf/go-cty/cty/convert"
 )

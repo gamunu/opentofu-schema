@@ -4,9 +4,9 @@
 package module
 
 import (
+	"github.com/gamunu/opentofu-schema/backend"
 	"github.com/hashicorp/go-version"
-	tfaddr "github.com/hashicorp/terraform-registry-address"
-	"github.com/hashicorp/terraform-schema/backend"
+	tfaddr "github.com/opentofu/registry-address"
 )
 
 type Meta struct {

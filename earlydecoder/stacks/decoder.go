@@ -6,8 +6,8 @@ package earlydecoder
 import (
 	"sort"
 
+	"github.com/gamunu/opentofu-schema/stack"
 	"github.com/hashicorp/hcl/v2"
-	"github.com/hashicorp/terraform-schema/stack"
 )
 
 func LoadStack(path string, files map[string]*hcl.File) (*stack.Meta, hcl.Diagnostics) {

@@ -4,9 +4,9 @@
 package schema
 
 import (
+	stack_1_9 "github.com/gamunu/opentofu-schema/internal/schema/stacks/1.9"
 	"github.com/hashicorp/go-version"
 	"github.com/hashicorp/hcl-lang/schema"
-	stack_1_9 "github.com/hashicorp/terraform-schema/internal/schema/stacks/1.9"
 )
 
 // CoreStackSchemaForVersion finds a schema for stack configuration files

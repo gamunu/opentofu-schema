@@ -4,10 +4,10 @@
 package schema
 
 import (
+	"github.com/gamunu/opentofu-schema/internal/schema/refscope"
+	"github.com/gamunu/opentofu-schema/internal/schema/tokmod"
 	"github.com/hashicorp/hcl-lang/lang"
 	"github.com/hashicorp/hcl-lang/schema"
-	"github.com/hashicorp/terraform-schema/internal/schema/refscope"
-	"github.com/hashicorp/terraform-schema/internal/schema/tokmod"
 )
 
 func deploymentBlockSchema() *schema.BlockSchema {

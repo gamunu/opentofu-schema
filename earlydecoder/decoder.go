@@ -7,11 +7,11 @@ import (
 	"fmt"
 	"sort"
 
+	"github.com/gamunu/opentofu-schema/internal/addr"
+	"github.com/gamunu/opentofu-schema/module"
 	"github.com/hashicorp/go-version"
 	"github.com/hashicorp/hcl/v2"
-	tfaddr "github.com/hashicorp/terraform-registry-address"
-	"github.com/hashicorp/terraform-schema/internal/addr"
-	"github.com/hashicorp/terraform-schema/module"
+	tfaddr "github.com/opentofu/registry-address"
 )
 
 func LoadModule(path string, files map[string]*hcl.File) (*module.Meta, hcl.Diagnostics) {

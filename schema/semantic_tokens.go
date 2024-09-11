@@ -4,7 +4,7 @@
 package schema
 
 import (
-	"github.com/hashicorp/terraform-schema/internal/schema/tokmod"
+	"github.com/gamunu/opentofu-schema/internal/schema/tokmod"
 )
 
 var SemanticTokenModifiers = tokmod.SupportedModifiers

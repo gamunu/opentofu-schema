@@ -7,13 +7,13 @@ import (
 	"fmt"
 	"sort"
 
+	"github.com/gamunu/opentofu-schema/internal/schema/refscope"
+	"github.com/gamunu/opentofu-schema/module"
+	"github.com/gamunu/opentofu-schema/registry"
 	"github.com/hashicorp/hcl-lang/lang"
 	"github.com/hashicorp/hcl-lang/schema"
 	"github.com/hashicorp/hcl/v2"
-	tfaddr "github.com/hashicorp/terraform-registry-address"
-	"github.com/hashicorp/terraform-schema/internal/schema/refscope"
-	"github.com/hashicorp/terraform-schema/module"
-	"github.com/hashicorp/terraform-schema/registry"
+	tfaddr "github.com/opentofu/registry-address"
 	"github.com/zclconf/go-cty/cty"
 )
 

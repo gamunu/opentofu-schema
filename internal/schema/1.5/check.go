@@ -4,10 +4,10 @@
 package schema
 
 import (
+	"github.com/gamunu/opentofu-schema/internal/schema/refscope"
+	"github.com/gamunu/opentofu-schema/internal/schema/tokmod"
 	"github.com/hashicorp/hcl-lang/lang"
 	"github.com/hashicorp/hcl-lang/schema"
-	"github.com/hashicorp/terraform-schema/internal/schema/refscope"
-	"github.com/hashicorp/terraform-schema/internal/schema/tokmod"
 	"github.com/zclconf/go-cty/cty"
 )
 
@@ -52,7 +52,7 @@ func checkBlock() *schema.BlockSchema {
 func scopedDataBlock() *schema.BlockSchema {
 	bs := &schema.BlockSchema{
 		// TODO: Address: &schema.BlockAddrSchema{},
-		// See https://github.com/hashicorp/terraform-schema/issues/234
+		// See https://github.com/gamunu/opentofu-schema/issues/234
 		Labels: []*schema.LabelSchema{
 			{
 				Name:                   "type",
